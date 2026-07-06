@@ -13,7 +13,7 @@ const TIMEZONE = "Europe/Brussels";
 
 // Risk: per trade as fraction of equity
 // 0.09 = 9% → ≈€18 risk at €200 equity, scales with balance
-const DEFAULT_RISK_PCT = 0.09;
+const DEFAULT_RISK_PCT = 0.0045;
 
 // SL buffer: webhook gives sl_pct (e.g. 0.003 = 0.3%)
 // We multiply by 1.5 to account for spread + timing lag
@@ -23,8 +23,8 @@ const SL_BUFFER_MULT = 1.5;
 // (i.e. round normally, then scale the result). Gold stays at normal
 // size; US100/NAS100 gets doubled.
 const LOT_MULTIPLIER = {
-  "XAUUSD":     0.5,
-  "NDX100": 0.5,
+  "XAUUSD":     1,
+  "NDX100": 1,
 };
 
 // ── Broker detection ─────────────────────────────────────────────
