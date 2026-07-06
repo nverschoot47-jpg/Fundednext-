@@ -23,8 +23,8 @@ const SL_BUFFER_MULT = 1.5;
 // (i.e. round normally, then scale the result). Gold stays at normal
 // size; US100/NAS100 gets doubled.
 const LOT_MULTIPLIER = {
-  "XAUUSD":     1,
-  "US100.cash": 1.2,
+  "XAUUSD":     0.5,
+  "NDX100": 0.5,
 };
 
 // ── Broker detection ─────────────────────────────────────────────
