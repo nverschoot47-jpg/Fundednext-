@@ -44,7 +44,7 @@ const BROKER_SYMBOL_MAP = {
   },
   maven: {
     "XAUUSD":     { type: "commodity", mt5: "XAUUSD",     pip: 0.01, volMin: 0.01, volStep: 0.01 },
-    "US100.cash": { type: "index",     mt5: "US100",      pip: 0.10, volMin: 0.01, volStep: 0.01 },
+    "US100.cash": { type: "index",     mt5: "NDX100",      pip: 0.10, volMin: 0.01, volStep: 0.01 },
   },
 };
 
